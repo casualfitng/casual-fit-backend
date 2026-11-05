@@ -2,6 +2,9 @@
   "name": "@casual-fit/api",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "nest start --watch",
     "build": "nest build",
