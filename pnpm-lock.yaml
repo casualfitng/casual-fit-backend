@@ -44,6 +44,9 @@ importers:
       jose:
         specifier: ^6.2.15
         version: 6.2.15
+      multer:
+        specifier: ^2.0.2
+        version: 2.5.0
       postgres:
         specifier: ^3.4.9
         version: 3.4.9
