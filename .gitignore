@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Secrets (keep .env.example in git)
+.env
+.env.*
+!.env.example
+
+# Local uploads (avatars live in Postgres now; ignore legacy folder)
+uploads/
+
+# Logs and OS
+*.log
+.DS_Store
+
+# Tests / coverage
+coverage/
+.nyc_output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
